@@ -1,0 +1,19 @@
+{
+  "name": "bingo-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/uuid": "^11.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "uuid": "^14.0.3"
+  }
+}
